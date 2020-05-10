@@ -1,50 +1,113 @@
-<!-- HTML with THREE stylesheets! -->
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
 
   <meta charset="UTF-8">
-  <title>1.2.9 Exercise</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <!-- Plus TWO MORE -->
-  <link rel="stylesheet" type="text/css" href="style2.css">
-  <link rel="stylesheet" type="text/css" href="style3.css">
+  <title>Erika Vigliucci | Full-Stack Developer | About</title>
+
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Our own CSS stylesheet -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
 </head>
 
 <body>
-  <header>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <h2><a class="navbar-brand" href="index.html" id="logo">Erika Vigliucci | Full-Stack Developer</a></h2>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
 
-    <h1>Student Bio</h1>
+  <!-- Start of container -->
+  <main class="container about">
+    <section class="row">
+      <div class="col-md-4 offset-md-2">
+          <img src="assets/images/erika.jpg" alt="" id="about-image" />
+      </div>
+      <div class="col-md-6">
+        <article class="block">
+          <h1>Hi, my name is Erika Vigliucci, I am a Full-Stack developer with 10 years of digital experience.</h2>
+          <p>I have a passion for design and technology. My degree is in interactive media and design and I have a full-stack certification from Case Western Reserve. Outside of work I have my huband Frank and our two kids, Hailey(2) and Ava(6 months). I love movies, boating, wakeboarding and camping.</p>
+          <p>I am currently a Senior Web Developer at Progressive Insurance. I oversee the Front End Architecture of Foragentsoly.com. This is a private Web Application tagerted at Progressive's 30,000 Independant Agents. I love what I do, and work with an amazing team! With a site that recieves over 100,000 unique pagevies a day I am never bored.</p>
+          
+          <section class="row">
+              <div class="col skills">
+                <h2>Expertise:</h2>
+                <span class="badge badge-info">HTML5</span>
+                <span class="badge badge-info">CSS3 / SCSS</span>
+                <span class="badge badge-info">Javascript ES6+ / jQuery</span>
+              </div>
+          </section>
 
-  </header>
+          <section class="row">
+            <div class="col skills">
+              <h2>Skills:</h2>
+              <span class="badge badge-info">Node.js</span>
+              <span class="badge badge-info">React / JSX</span>
+              <span class="badge badge-info">MySQL / SQL</span>
+              <span class="badge badge-info">Mongo DB</span>
+              <span class="badge badge-info">Express</span>
+            </div>
+          </section>
 
-  <div class="container">
-
-    <section id="main-bio">
-
-      <h2>Your Name</h2>
-      <img src="http://placehold.it/200x200" alt="Your Image" id="bio-image">
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-
+          <section class="row">
+            <div class="col skills">
+              <h2>Qualifications:</h2>
+              <span class="badge badge-info">Collaboration</span>
+              <span class="badge badge-info">Ideation</span>
+              <span class="badge badge-info">Communication</span>
+              <span class="badge badge-info">Organization</span>
+            </div>
+          </section>
+        </article>
+      </div>
     </section>
+  </main>
+  <!-- End of container -->
 
-    <section id="contact-info">
+  <!-- Start of footer -->
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright 2020 Erika Vigliucci
+    </p>
+  </footer>
+  <!-- End of footer -->
 
-      <h2>Contact Info</h2>
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-
-    </section>
-
-  </div>
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 

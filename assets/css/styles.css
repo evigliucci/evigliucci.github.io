@@ -1,0 +1,118 @@
+/* --- Base Style Overrides --- */
+body {
+  /* Typography */
+  font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Slab';
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  color: #055569;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 100px;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar .navbar-brand {
+  display: inline-block;
+  padding-top: 9px;
+  padding-bottom: 7px;
+}
+
+.block-header {
+  font-size: 72px;
+  margin-bottom: 24px;
+}
+
+.badge {
+  padding: .5em .8em;
+  font-size: 11px;
+  line-height: 11px;
+  border-radius: 5px;
+}
+
+.badge-info {
+  background-color: #055569;
+}
+
+.about img {
+  border-radius: 5px;
+}
+
+.about .skills {
+  margin: 10px 0;
+}
+
+.about .skills h2 {
+  margin: 0;
+}
+
+.portfolio .row {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 72px;
+}
+
+.portfolio .project-badge {
+  margin-bottom: 24px;
+}
+
+.portfolio button {
+  margin-bottom: 24px;
+}
+
+.portfolio .example {
+  margin-top: auto;
+}
+
+.portfolio .year {
+  color: #000;
+  font-size: 42px;
+  text-align: center;
+  padding: 12px 0;
+  font-family: 'Josefin Slab';
+}
+
+.portfolio .row + .year {
+  margin-top: 200px;
+}
+
+.contact h1 {
+  font-size: 48px;
+}
+
+.contact .social {
+  margin: 0 auto;
+}
+
+.contact button {
+  background: #055569;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  margin-left: 16px;
+}
+/*# sourceMappingURL=styles.css.map */
