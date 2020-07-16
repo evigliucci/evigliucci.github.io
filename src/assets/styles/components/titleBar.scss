@@ -1,0 +1,44 @@
+.titleBar {
+  position: relative;
+  top: 7.5rem;
+  background: rgb(215, 10, 132);
+  background: linear-gradient(
+    145deg,
+    rgba(215, 10, 132, 1) 25%,
+    rgb(81, 18, 127) 75%
+  );
+  padding: 1.2rem;
+  width: 80%;
+  box-sizing: border-box;
+  margin: 0 auto;
+
+  .titleBar-wrap {
+    display: flex;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    padding: 2.4rem;
+    justify-content: space-between;
+    img {
+      display: none;
+    }
+  }
+  h1 {
+    font-size: 10rem;
+    line-height: 10rem;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .titleBar {
+    padding: 0.6rem;
+    .titleBar-wrap {
+      padding: 0.6rem;
+    }
+    h1 {
+      font-size: 6rem;
+      line-height: 1.3;
+    }
+  }
+}

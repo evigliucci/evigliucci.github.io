@@ -1,73 +1,68 @@
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
+## Available Scripts
 
+In the project directory, you can run:
 
-## Directions
+### `npm start`
 
-First, you will use the Bootstrap CSS Framework to recreate your portfolio. How do you deliver this? Here are some guidelines:
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-* Create the following pages: `index.html`, `portfolio.html` and `contact.html`.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-* Using Bootstrap, recreate your portfolio site with the following items:
+### `npm test`
 
-   * A navbar
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-   * A responsive layout
+### `npm run build`
 
-   * Responsive images
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-* The Bootstrap portfolio should minimize the use of media queries.
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Hints
+### `npm run eject`
 
-* Use Bootstrap's grid system (containers, rows, and columns).
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-### Minimum Requirements
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-* Functional, deployed application
+## Learn More
 
-* GitHub repository with README describing the project
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Bonus
+### Code Splitting
 
-* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
+### Analyzing the Bundle Size
 
-## Commit Early and Often
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+### Making a Progressive Web App
 
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+### Advanced Configuration
 
-Follow these guidelines for committing:
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+### Deployment
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+### `npm run build` fails to minify
 
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URLs of the deployed applications
-
-* The URLs of the GitHub repositories
-
-- - -
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
