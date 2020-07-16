@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f3312b59.chunk.css",
+    "main.js": "/static/js/main.ca2c80ee.chunk.js",
+    "main.js.map": "/static/js/main.ca2c80ee.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.3083acb6.chunk.js": "/static/js/2.3083acb6.chunk.js",
+    "static/js/2.3083acb6.chunk.js.map": "/static/js/2.3083acb6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8cd4f7bb4790d3b9039cddd9bb7f08b4.js": "/precache-manifest.8cd4f7bb4790d3b9039cddd9bb7f08b4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f3312b59.chunk.css.map": "/static/css/main.f3312b59.chunk.css.map",
+    "static/js/2.3083acb6.chunk.js.LICENSE.txt": "/static/js/2.3083acb6.chunk.js.LICENSE.txt",
+    "static/media/allergan.png": "/static/media/allergan.8936f5a5.png",
+    "static/media/blossom-hill.png": "/static/media/blossom-hill.5873f58a.png",
+    "static/media/canada-post.png": "/static/media/canada-post.3cea6d74.png",
+    "static/media/city-club.png": "/static/media/city-club.7d7f5353.png",
+    "static/media/first-national-bank.png": "/static/media/first-national-bank.4e13512e.png",
+    "static/media/global-print-net.png": "/static/media/global-print-net.c5d26cde.png",
+    "static/media/icons.png": "/static/media/icons.7cd152ea.png",
+    "static/media/intro.css": "/static/media/intro-self.83a9ebd6.png",
+    "static/media/kleen-freak.png": "/static/media/kleen-freak.d5251f4d.png",
+    "static/media/leaksmart.png": "/static/media/leaksmart.46ac02cd.png",
+    "static/media/progressive-old.png": "/static/media/progressive-old.32ba41b1.png",
+    "static/media/progressive.png": "/static/media/progressive.26231236.png",
+    "static/media/footer.css": "/static/media/swirl.8ee09a90.png",
+    "static/media/village-st-eds.png": "/static/media/village-st-eds.35955605.png",
+    "static/media/work-samples.png": "/static/media/work-samples.d29fc5fd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.3083acb6.chunk.js",
+    "static/css/main.f3312b59.chunk.css",
+    "static/js/main.ca2c80ee.chunk.js"
+  ]
+}
